@@ -1,4 +1,4 @@
-# Healthgrades Spider Version 2
+# Healthgrades Spider Version 2.1
 ## Scrape and Store all of the Doctors Listed on healthgrades.com and Parse Data from Source Page JavaScript 
 ##### Follow Data Fields are Available: 
 
@@ -22,3 +22,8 @@
 
 Please check out the sample result data in export folder
 
+## Running
+
+```
+scrapy crawl healthgrades
+```
