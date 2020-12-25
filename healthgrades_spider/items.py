@@ -27,3 +27,6 @@ class HealthgradesSpiderItem(scrapy.Item):
 	reviewCount = scrapy.Field()
 	average_score = scrapy.Field()
 	link = scrapy.Field() 
+
+	raw_pes = scrapy.Field() 
+	raw_view_model = scrapy.Field() 
