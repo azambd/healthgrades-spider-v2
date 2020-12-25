@@ -1,4 +1,5 @@
-from scrapy.conf import settings
+from scrapy.utils.project import get_project_settings
+settings = get_project_settings()
 from scrapy.exporters import CsvItemExporter
 
 class GenericItemExporter(CsvItemExporter):
