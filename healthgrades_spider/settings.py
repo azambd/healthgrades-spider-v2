@@ -20,8 +20,7 @@ NEWSPIDER_MODULE = 'healthgrades_spider.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'healthgrades_spider (+http://www.yourdomain.com)'
-USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:57.0) Gecko/20100101 Firefox/57.0'
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -81,24 +80,26 @@ FEED_EXPORTERS = {
 }
 
 FIELDS_TO_EXPORT = [	
-					'name',
-					'gender',
-					'speciality',
-					'practice_name',
-					'completion_description',
-                    'completion_year',
-                    'edu_name',
-                    'edu_type',
-                    'street_address',
-                    'city',
-                    'state',
-                    'zip_code',
-                    'phone',
-                    'responseCount',
-                    'reviewCount',
-                    'average_score',
-                    'link'
-                   ]
+        'name',
+        'gender',
+        'speciality',
+        'practice_name',
+        'completion_description',
+        'completion_year',
+        'edu_name',
+        'edu_type',
+        'street_address',
+        'city',
+        'state',
+        'zip_code',
+        'phone',
+        'responseCount',
+        'reviewCount',
+        'average_score',
+        'link',
+        'raw_pes',
+        'raw_view_model'
+        ]
 
 FEED_FORMAT = 'csv'
 
